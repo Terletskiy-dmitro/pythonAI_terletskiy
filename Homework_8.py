@@ -10,5 +10,4 @@ logging.basicConfig(
 
 current_date = datetime.now().strftime('%Y-%m-%d')
 
-# Запис повідомлення у лог
 logging.info(f"Поточна дата: {current_date}")
